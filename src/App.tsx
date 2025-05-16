@@ -5,7 +5,7 @@ function App() {
 
   return (
     <>
-      <div className={styles.root}><div>Hello World</div></div>
+      <div className={styles.root}><div className={styles.maintenance_message}>Under Maintenance</div></div>
     </>
   )
 }
